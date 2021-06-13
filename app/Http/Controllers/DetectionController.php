@@ -12,9 +12,28 @@ class DetectionController extends Controller
 
         "title"=>"Detection|Dashboard",
        ];
-       return view('adminpanel');
+       return view('DetectionPanel.dashboard');
 
 
    }
+   public function comingsoon()
+   {
+       $data  = [
 
+        "title"=>"Detection|Coming Soon",
+       ];
+       return view('DetectionPanel.comingsoon');
+
+
+   }
+   public function login()
+   {
+       $data  = [
+
+        "title"=>"Detection|Login",
+       ];
+       return view('DetectionPanel.login');
+
+
+   }
 }

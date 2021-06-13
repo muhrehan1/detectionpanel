@@ -1,0 +1,8 @@
+.main-menu.menu-light .navigation > li ul .active {
+    background: linear-gradient(
+118deg
+, #40225d, #40225d);
+    box-shadow: 0 0 10px 1px #40225d;
+    border-radius: 4px;
+    z-index: 1;
+}

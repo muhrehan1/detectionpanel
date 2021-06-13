@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+Route::get('/Detection/dashboard','DetectionController@index')->name('dashboard');
+Route::get('/','DetectionController@comingsoon')->name('comingsoon');
+Route::get('/Detection/Login','DetectionController@login')->name('login');
