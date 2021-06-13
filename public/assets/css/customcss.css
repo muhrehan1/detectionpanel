@@ -1,8 +1,18 @@
 .main-menu.menu-light .navigation > li ul .active {
     background: linear-gradient(
 118deg
-, #40225d, #40225d);
-    box-shadow: 0 0 10px 1px #40225d;
+, #40225d, #40225d) !important;
+    box-shadow: 0 0 10px 1px #40225d !important;
     border-radius: 4px;
     z-index: 1;
+}.card-congratulations {
+    background: linear-gradient(
+118deg
+, #40225d, #40225d)!important;
+    color: #fff;
+}.navbar-header.expanded {
+    background: #40225d !important;
+}.brand-text{
+
+    color: #fff !important
 }
